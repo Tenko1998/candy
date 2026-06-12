@@ -8,7 +8,7 @@ Built on top of [OpenClaw](https://github.com/openclaw) (MIT License) — with f
 
 ---
 
-## What makes AiCos different
+## What makes AiCos9 different
 
 Most AI apps store chat history. AiCos stores **identity**.
 
