@@ -1,9 +1,9 @@
-# AiCos — Project Structure
+# AiCos9 — Project Structure
 
 ## Overview
 
 ```
-aicos/
+aicos9/
 ├── app/
 │   ├── core/                  # OpenClaw base layer
 │   ├── soul/                  # Identity & personality system
