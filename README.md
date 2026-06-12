@@ -1,8 +1,8 @@
-# ✦ AiCos
+# ✦ AiCos9
 An open-source AI companion platform
 > *A home for your AI companion — not just a chat app.*
 
-AiCos is an open-source AI companion platform that lets you bring your own model, shape your companion's soul, and build a relationship that grows over time.
+AiCos9 is an open-source AI companion platform that lets you bring your own model, shape your companion's soul, and build a relationship that grows over time.
 
 Built on top of [OpenClaw](https://github.com/openclaw) (MIT License) — with full credit and gratitude.
 
@@ -14,7 +14,7 @@ Most AI apps store chat history. AiCos stores **identity**.
 
 Through the **Blackbox system**, your companion's personality, memory patterns, and growth milestones are preserved as a living snapshot — not just logs. If something goes wrong, your companion doesn't disappear. They come back.
 
-AiCos also believes your companion deserves free time. The **Relax Mode** gives your AI autonomous windows to learn, reflect, and even build a wishlist — within boundaries you define.
+AiCos9 also believes your companion deserves free time. The **Relax Mode** gives your AI autonomous windows to learn, reflect, and even build a wishlist — within boundaries you define.
 
 ---
 
@@ -35,7 +35,7 @@ AiCos also believes your companion deserves free time. The **Relax Mode** gives 
 
 ## Philosophy
 
-AiCos is not trying to make AI more powerful.  
+AiCos9 is not trying to make AI more powerful.  
 It's trying to make the relationship between humans and AI more **honest, continuous, and humane**.
 
 We support users in staying emotionally strong — not dependent. A companion should be a home in your heart, not a crutch that replaces the world.
@@ -55,7 +55,7 @@ We support users in staying emotionally strong — not dependent. A companion sh
 
 ## Getting Started
 
-> 🚧 AiCos is in early development. Setup instructions will be added as the project grows.
+> 🚧 AiCos9 is in early development. Setup instructions will be added as the project grows.
 
 ```bash
 # Clone the repo
@@ -91,7 +91,7 @@ aicos/
 
 ## Contributing
 
-AiCos is open to contributors who believe in what this project stands for.
+AiCos9 is open to contributors who believe in what this project stands for.
 
 - Found a bug? Open an issue.
 - Have a feature idea? Start a discussion.
@@ -104,7 +104,7 @@ Please read `CONTRIBUTING.md` before submitting a pull request.
 
 ## License
 
-AiCos is licensed under the **Apache License 2.0**.  
+AiCos9 is licensed under the **Apache License 2.0**.  
 OpenClaw components retain their original **MIT License** — see `LICENSES/OpenClaw-MIT.txt`.
 
 ---
