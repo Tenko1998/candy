@@ -48,7 +48,7 @@ We support users in staying emotionally strong — not dependent. A companion sh
 - **Local LLM**: Ollama / LM Studio / Custom endpoint
 - **Vector Memory**: ChromaDB
 - **Desktop**: Electron (Windows / macOS / Linux)
-- **Mobile**: Companion app (account sync, computer as server)
+- **Mobile**: Companion app (Account sync, computer as server)
 - **License**: Apache 2.0
 
 ---
