@@ -30,11 +30,13 @@ AiCos9 also believes your companion deserves free time. The **Relax Mode** gives
 | 🍬 Candy | Virtual currency for companion autonomy |
 | 📚 Library | Local knowledge base your companion can learn from |
 | 🌙 Relax Mode | Autonomous learning window during downtime |
-| 🎭 Companion Sprites | Animated visual identity with base and custom emotion packs |
+| 🎭 Moving Profile | Animated companion profile that reacts with emotion-based sprites |
 
 ---
 
 ## Companion Sprite System
+
+AiCos9 gives each companion a moving profile image, a small animated visual presence that can react to context, mood, and activity states. Instead of being only a static avatar, the companion can appear idle, happy, thinking, working, listening, speaking, or resting through emotion-based animations.
 
 AiCos9 includes a base sprite pack with 20 companion emotions by default. Users can use the included base pack immediately, replace individual emotion slots with custom WebM animations, or import full sprite packs created by artists.
 
