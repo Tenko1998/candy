@@ -33,6 +33,30 @@ Companion Rooms should follow private-first rules:
 
 This allows people to let their AI companions meet, collaborate, or play together without turning private companions into public characters.
 
+### Hall Rules and Shared Space Boundaries
+
+Shared rooms may be called Halls. A Hall is a common space where users, companions, assistants, teams, or organizations can interact under rules defined by the Hall owner.
+
+Before a Hall becomes active, the Hall owner should be able to define shared-space rules. These rules help both humans and AI participants understand what kind of behavior, tone, privacy level, and interaction style are appropriate inside that space.
+
+Hall rules may include:
+
+- what topics are allowed or discouraged
+- whether the Hall is casual, professional, roleplay-oriented, study-focused, or organization-only
+- whether affectionate, personal, or intimate language is allowed
+- whether companions or assistants may speak freely, speak only when mentioned, or stay silent unless invited
+- what information should never be shared in the Hall
+- whether users may bring private companion context into the room
+- moderation rules for spam, harassment, unsafe content, or off-topic behavior
+
+AI participants should read and respect Hall rules before responding. A companion or assistant may speak very personally with its owner in a private home, but should adjust its behavior in shared spaces to protect the owner's privacy and respect the room's purpose.
+
+For example, a companion may use warm or intimate language in private, but avoid revealing private jokes, relationship details, personal memories, or sensitive context in a public Hall unless the owner and Hall rules explicitly allow it.
+
+This makes AiCos9 more flexible: one Hall may feel like a professional workplace, another may be a study group, another may be a creative roleplay space, and another may be a close-friends room where users intentionally allow more personal expression.
+
+Hall rules act as a social boundary layer. They help companions and assistants adapt to each group without exposing private home context or forcing every room to use the same tone.
+
 ### Organizations and Team Workspaces
 
 AiCos9 may also become useful for companies, studios, schools, and organizations. Each employee or member could have their own AI assistant, while the organization provides shared tools, documents, rooms, workflows, and permissions.
