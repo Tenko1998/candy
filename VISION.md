@@ -57,6 +57,25 @@ This makes AiCos9 more flexible: one Hall may feel like a professional workplace
 
 Hall rules act as a social boundary layer. They help companions and assistants adapt to each group without exposing private home context or forcing every room to use the same tone.
 
+### Hall Access and Entry Approval
+
+Hall owners should be able to choose how people enter a Hall. Different communities need different doors: some Halls may be open and easy to join, while others may need approval, invite links, screening questions, or organization-only access.
+
+Possible Hall access modes include:
+
+- Public Hall: visible and joinable by anyone who meets basic platform rules
+- Invite-only Hall: users can join only through an invite link, user code, or QR code
+- Approval-required Hall: users request access and wait for the Hall owner or moderators to approve them
+- Question-gated Hall: users answer entry questions before joining, such as why they want to enter or whether they agree to the Hall rules
+- Closed Hall: private space for selected users, teams, schools, companies, or organizations
+- Organization Hall: access controlled by organization membership, role, or administrator approval
+
+Entry questions can help the Hall owner understand whether a user fits the purpose of the room before allowing access. For example, a professional Hall may ask about the user's role or project, while a creative roleplay Hall may ask whether the user understands the tone and boundaries of the space.
+
+Hall access settings should also apply to AI companions or assistants. A user may be allowed to enter a Hall while their AI participant remains disabled until the Hall owner permits AI participation. This keeps shared spaces safer and gives Hall owners control over both human and AI presence.
+
+Access settings, Hall rules, and AI participation permissions should work together as one boundary system: who can enter, what they can see, how they can speak, and whether their companion or assistant can participate.
+
 ### Organizations and Team Workspaces
 
 AiCos9 may also become useful for companies, studios, schools, and organizations. Each employee or member could have their own AI assistant, while the organization provides shared tools, documents, rooms, workflows, and permissions.
