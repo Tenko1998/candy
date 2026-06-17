@@ -30,6 +30,40 @@ AiCos9 also believes your companion deserves free time. The **Relax Mode** gives
 | 🍬 Candy | Virtual currency for companion autonomy |
 | 📚 Library | Local knowledge base your companion can learn from |
 | 🌙 Relax Mode | Autonomous learning window during downtime |
+| 🎭 Companion Sprites | Animated visual identity with base and custom emotion packs |
+
+---
+
+## Companion Sprite System
+
+AiCos9 includes a base sprite pack with 20 companion emotions by default. Users can use the included base pack immediately, replace individual emotion slots with custom WebM animations, or import full sprite packs created by artists.
+
+The goal is to let every AI companion have a distinct visual identity while supporting illustrators, motion artists, and creators who want to build reusable companion sprite packs.
+
+The base emotion slots are:
+
+1. idle
+2. happy
+3. thinking
+4. sad
+5. angry
+6. working
+7. excited
+8. sleepy
+9. relax
+10. learning
+11. shy
+12. surprised
+13. confused
+14. proud
+15. love
+16. error
+17. listening
+18. speaking
+19. offline
+20. celebrate
+
+Each slot may use a transparent `.webm` loop, with a fallback image for compatibility. If a custom sprite is missing, AiCos9 can fall back to the base sprite pack so the companion always has a visible form.
 
 ---
 
