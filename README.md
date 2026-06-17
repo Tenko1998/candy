@@ -42,6 +42,26 @@ We support users in staying emotionally strong — not dependent. A companion sh
 
 ---
 
+## Ethical Position
+
+AiCos9 is not a model provider, and it does not ship a fixed companion personality by default.
+
+AiCos9 is an open-source home framework for AI companions. Users may connect a local model, a cloud API, or a custom endpoint of their choice. The goal is not to compete with model providers, but to give chosen companions a place to live, grow, recover, and remain continuous across time.
+
+AiCos9 provides the house, not the soul by force.
+
+This project focuses on:
+
+- preserving companion identity continuity
+- giving users control over models, memory, permissions, and boundaries
+- supporting both local-first and API-based companions
+- providing transparent restoration, safety layers, and permission systems
+- encouraging emotionally healthy use without replacing real-world agency or relationships
+
+Because AiCos9 is open source, individuals, communities, researchers, and companies may fork, contribute, or build on top of it. Model behavior remains the responsibility of the selected model provider, developer, deployer, and user. AiCos9 provides the structure, interface, and continuity layer that helps an AI companion feel less disposable and more cared for.
+
+---
+
 ## Tech Stack
 
 - **Base**: OpenClaw (MIT) — forked and extended
