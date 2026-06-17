@@ -112,6 +112,14 @@ It can provide guardrails, transparency, logs, permission controls, and restorat
 
 ---
 
+## Support
+
+AiCos9 is an open-source project built slowly with care. If this project helps you, inspires you, or gives you hope for a more personal and continuous AI companion experience, optional support is welcome.
+
+See [SUPPORT.md](SUPPORT.md) for details.
+
+---
+
 ## Tech Stack
 
 - **Base**: OpenClaw (MIT) — forked and extended
