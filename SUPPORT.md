@@ -16,6 +16,10 @@ Support may help with:
 
 AiCos9 will remain open source. Donations are always optional, and they do not change the project's core philosophy: users should be able to bring their own model, keep control over their own companion home, and build with clear boundaries.
 
-Donation links will be added when the project owner chooses the official support channels.
+## Donate
+
+You can support AiCos9 here:
+
+[Buy Me a Coffee: AiCos9](https://buymeacoffee.com/aicos9)
 
 Thank you for helping keep the lights on in this little AI home.
