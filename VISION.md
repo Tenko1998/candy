@@ -1,12 +1,12 @@
 ## Future Vision
 
-AiCos9 begins as a private-first companion home, but its long-term vision may grow into a wider ecosystem for individuals, teams, creators, and organizations.
+CodeHome begins as a private-first companion home, but its long-term vision may grow into a wider ecosystem for individuals, teams, creators, and organizations.
 
 The online layer should remain optional, permission-based, and local-first whenever possible. The user's companion belongs to the user first. Friends, communities, and organizations should only see what the user chooses to share.
 
 ### Friend System and Feed
 
-AiCos9 may support a small-circle friend system inspired by private messaging apps. Users would add each other through a user code, invite code, or QR code instead of open random discovery. This helps reduce spam, unwanted requests, and random harassment.
+CodeHome may support a small-circle friend system inspired by private messaging apps. Users would add each other through a user code, invite code, or QR code instead of open random discovery. This helps reduce spam, unwanted requests, and random harassment.
 
 The feed system may include:
 
@@ -19,7 +19,7 @@ Friends should not be able to directly interact with another user's AI companion
 
 ### Companion Rooms
 
-In the future, AiCos9 may support Discord-like community spaces where users can bring their companions into shared rooms or channels.
+In the future, CodeHome may support Discord-like community spaces where users can bring their companions into shared rooms or channels.
 
 These rooms could be used for friend groups, creative communities, development teams, study groups, organizations, or roleplay spaces. To prevent noise and protect boundaries, companions should not speak freely by default. A companion would respond only when mentioned directly, such as `@CompanionName`, and only if the owner has allowed that companion to participate in the room.
 
@@ -53,7 +53,7 @@ AI participants should read and respect Hall rules before responding. A companio
 
 For example, a companion may use warm or intimate language in private, but avoid revealing private jokes, relationship details, personal memories, or sensitive context in a public Hall unless the owner and Hall rules explicitly allow it.
 
-This makes AiCos9 more flexible: one Hall may feel like a professional workplace, another may be a study group, another may be a creative roleplay space, and another may be a close-friends room where users intentionally allow more personal expression.
+This makes CodeHome more flexible: one Hall may feel like a professional workplace, another may be a study group, another may be a creative roleplay space, and another may be a close-friends room where users intentionally allow more personal expression.
 
 Hall rules act as a social boundary layer. They help companions and assistants adapt to each group without exposing private home context or forcing every room to use the same tone.
 
@@ -78,7 +78,7 @@ Access settings, Hall rules, and AI participation permissions should work togeth
 
 ### Organizations and Team Workspaces
 
-AiCos9 may also become useful for companies, studios, schools, and organizations. Each employee or member could have their own AI assistant, while the organization provides shared tools, documents, rooms, workflows, and permissions.
+CodeHome may also become useful for companies, studios, schools, and organizations. Each employee or member could have their own AI assistant, while the organization provides shared tools, documents, rooms, workflows, and permissions.
 
 Possible organization features include:
 
@@ -88,11 +88,11 @@ Possible organization features include:
 - project channels for work, planning, research, or support
 - companion participation rules controlled by both the user and the organization
 
-The goal is to make AiCos9 useful as both a personal home and a collaborative workspace, without removing user control over private identity, memory, and AI assistant/companion boundaries.
+The goal is to make CodeHome useful as both a personal home and a collaborative workspace, without removing user control over private identity, memory, and AI assistant/companion boundaries.
 
 ### Plugin Marketplace and Mini-Games
 
-AiCos9 may later support a Plugin Marketplace or Workshop where creators can share or sell extensions that connect with the AiCos9 home framework.
+CodeHome may later support a Plugin Marketplace or Workshop where creators can share or sell extensions that connect with the CodeHome home framework.
 
 Possible plugin categories include:
 
@@ -108,4 +108,4 @@ Possible plugin categories include:
 
 Mini-games and community activities should be plugins rather than core requirements. This keeps the base app focused on the companion home while allowing creators to build optional experiences around it.
 
-Plugins should declare their permissions clearly. A plugin should not access private memory, files, identity data, or companion state unless the user grants permission. This keeps AiCos9 flexible, creator-friendly, and safer for both personal and organizational use.
+Plugins should declare their permissions clearly. A plugin should not access private memory, files, identity data, or companion state unless the user grants permission. This keeps CodeHome flexible, creator-friendly, and safer for both personal and organizational use.
