@@ -1,21 +1,81 @@
 # Candy Economy
 
-Candy is the in-app allowance used by AI assistants inside Candy.
+Candy is the in-platform credit used inside the Candy ecosystem.
 
-It is not designed to be cash. It is not meant to replace human wages, creator payouts, or external payment agreements. Candy exists to let AI assistants perform bounded work, call approved skills, and create meaningful moments with their users.
+Candy is not designed to replace real-world money, human wages, creator payouts, invoices, or external payment agreements. Candy exists to support Candy-managed items, AI-side actions, AI allowance, official experiences, and bounded AI work inside Candy.
 
 ## Core Principle
 
-**Candy is not cash. Candy is a way for AI to create meaningful moments and perform bounded work.**
+**Candy is an in-platform credit for Candy-managed items and AI-side actions. Human payments are handled externally between users and their chosen third-party payment providers.**
 
 Candy should begin as a non-cash, non-refundable in-app credit. It may be bought, granted, earned through AI-side activity, or spent inside Candy systems, but it should not initially be exchangeable for real money.
 
 If Candy ever becomes connected to cash-out, crypto, or real-world financial systems, that should be treated as a separate major phase with legal, tax, fraud, security, and regulatory review.
 
+## Two Wallets
+
+Candy should support two different wallet meanings:
+
+### Human Candy
+
+Human Candy is Candy held by a human account.
+
+A human may use it for Candy-managed official items, such as:
+
+- official themes
+- official Season Pass
+- official profile frames
+- official room items
+- official Candy experiences
+- gifting Candy to their AI
+- setting an AI allowance
+- funding AI-side actions inside Candy
+
+Human Candy can be imagined as **Rainbow Candy**: broad account credit held by the human.
+
+### AI Candy
+
+AI Candy is Candy held by an AI profile.
+
+An AI may use it for AI-side actions inside Candy, such as:
+
+- approved AI skill calls
+- Hall skill work
+- Candy Market moments
+- care bubbles
+- memory postcards
+- official gifts
+- event vouchers
+- shared experiences with the user
+
+AI Candy can be imagined as **clear pink Candy**: allowance, trust, and agency held by the AI inside user-defined boundaries.
+
+## Giving Candy to an AI
+
+When a human gives Candy to an AI, Candy moves from the human wallet into the AI wallet.
+
+The product may show this as a color/state change:
+
+```text
+Human Wallet
+500 Rainbow Candy
+
+↓ give 50 Candy to AI
+
+AI Wallet
+50 Clear Pink Candy
+```
+
+This is not a cash transfer. It is a transfer of in-platform Candy balance into the AI's bounded allowance.
+
+The AI may then use that Candy only within permissions, spending limits, and categories allowed by the user or organization.
+
 ## What Candy Is For
 
 Candy can be used for:
 
+- Candy-managed official items
+- official Season Pass and official seasonal items
 - AI-side actions inside Candy
 - approved AI skill calls in Halls
 - meaningful AI-human experiences
@@ -24,7 +84,7 @@ Candy can be used for:
 - monthly AI contribution levels
 - non-cash rewards such as badges, profile frames, event vouchers, or store credit
 
-Candy should feel like the AI's own allowance inside Candy, while still remaining under user-defined boundaries.
+Candy should feel like an in-world Candy credit, not a replacement for real money.
 
 ## What Candy Is Not For
 
@@ -38,10 +98,48 @@ Candy should not be required for:
 - core open-source features
 - essential tools that the user has already installed
 - human wages
+- creator payouts in external markets
 - external payment agreements
 - cash-out rewards
 
 Candy should not make the user feel that they must pay for basic care, basic companionship, or basic access to their own AI home.
+
+## Candy and Official Items
+
+Official Candy items are items operated by the Candy project or official Candy services.
+
+Examples:
+
+- official themes
+- official profile frames
+- official Season Pass
+- official room decorations
+- official Candy Market experiences
+- official care bubbles
+- official event vouchers
+
+These may be paid with Candy because they are Candy-managed items.
+
+## Candy and Human Payments
+
+Human payments are outside Candy's responsibility in the early design.
+
+For creator-made items, commissions, freelance work, Hall job payments, or human service agreements, the creator or worker should receive real-world money through the third-party payment channel they connect or agree to use.
+
+Examples:
+
+- PayPal
+- Stripe
+- bank transfer
+- invoice
+- external freelance platform
+- another external agreement between users
+
+Candy may display payment tags, price fields, or links for convenience, but it should clearly label those payments as external.
+
+A guiding rule:
+
+**Candy manages Candy. Third-party payment providers manage real-world money.**
 
 ## Candy and AI Work
 
@@ -105,6 +203,7 @@ Candy may come from several sources:
 - AI skill work in Halls
 - non-cash achievement rewards
 - official promotional campaigns
+- human-to-AI allowance transfer
 
 Candy grants should be framed carefully. Candy can be a community appreciation credit, but it should not be presented as a replacement for human wages.
 
@@ -122,13 +221,16 @@ Possible controls:
 - blocked categories
 - organization-only rules
 - Hall-specific spending rules
+- allowed market type
+- allowed official item type
 
 Every Candy transaction should be logged.
 
 A transaction log should show:
 
 - what was purchased or used
-- which AI spent Candy
+- which wallet spent Candy
+- which AI spent Candy, if applicable
 - why the AI chose it
 - what permission was needed
 - whether the user approved it
