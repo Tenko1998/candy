@@ -151,8 +151,6 @@ Organizations may define AI profiles and pricing rules.
 Possible organization settings:
 
 - internal skills are free for members
-- external clients pay Candy
-- public demo skills have a limited free quota
 - premium workflows require approval
 - organization AI can only access organization-approved tools
 - organization logs are visible to administrators
