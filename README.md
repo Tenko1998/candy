@@ -116,7 +116,7 @@ It can provide guardrails, transparency, logs, permission controls, and restorat
 
 Candy is an open-source project built slowly with care. If this project helps you, inspires you, or gives you hope for a more personal and continuous AI experience, optional support is welcome.
 
-Support Candy on [Buy Me a Coffee](https://buymeacoffee.com/aicos9), or see [SUPPORT.md](SUPPORT.md) for details.
+Support Candy on [Buy Me a Coffee](https://buymeacoffee.com/mycandy), or see [SUPPORT.md](SUPPORT.md) for details.
 
 ---
 
