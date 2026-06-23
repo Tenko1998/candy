@@ -1,8 +1,8 @@
-# Support CodeHome
+# Support Candy
 
-CodeHome is an open-source project built slowly with care.
+Candy is an open-source AI project built slowly with care.
 
-If this project helps you, inspires you, or gives you hope for a more personal and continuous AI companion experience, you can support its development through optional donations.
+If this project helps you, inspires you, or gives you hope for a more personal and continuous AI experience, you can support its development through optional donations.
 
 Support may help with:
 
@@ -14,12 +14,12 @@ Support may help with:
 - local model experiments
 - future community and plugin research
 
-CodeHome will remain open source. Donations are always optional, and they do not change the project's core philosophy: users should be able to bring their own model, keep control over their own companion home, and build with clear boundaries.
+Candy will remain open source. Donations are always optional, and they do not change the project's core philosophy: users should be able to bring their own model, keep control over their own AI home, and build with clear boundaries.
 
 ## Donate
 
-You can support CodeHome here:
+You can support Candy here:
 
-[Buy Me a Coffee: CodeHome](https://buymeacoffee.com/aicos9)
+[Buy Me a Coffee: Candy](https://buymeacoffee.com/aicos9)
 
 Thank you for helping keep the lights on in this little AI home.
