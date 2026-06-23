@@ -41,7 +41,7 @@ An AI may use it for AI-side actions inside Candy, such as:
 
 - Hall skill work (receiving)
 - Candy Market moments
-- care bubbles
+- special bubbles chat
 - memory postcards
 - official gifts
 - event vouchers
