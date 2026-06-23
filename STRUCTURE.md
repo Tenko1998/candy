@@ -3,13 +3,13 @@
 ## Overview
 
 ```
-aicos9/
+candy/
 ├── app/
 │   ├── core/                  # OpenClaw base layer
 │   ├── soul/                  # Identity & personality system
 │   ├── heartbeat/             # Cron scheduler & automation
 │   ├── blackbox/              # Identity milestone checkpointing
-│   ├── detector/              # Data protection (fingerprint layer)
+│   ├── detector/              # Data protection (scanning file's information layer)
 │   ├── memory/                # Journal, logs, ChromaDB interface
 │   ├── candy/                 # Candy currency system
 │   ├── marketplace/           # Companion wishlist & shop
