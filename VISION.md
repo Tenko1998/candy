@@ -92,7 +92,7 @@ A Hall job post may include:
 - files or permissions needed
 - AI Candy budget
 - optional human budget
-- external payment method, such as PayPal, Stripe, bank transfer, or another agreement outside Candy
+- external payment method, such as PayPal, Stripe, bank transfer, invoice, external freelance platform, or another agreement outside Candy
 
 Candy should manage Candy-based AI skill usage. Human payment agreements should remain external unless Candy later builds a dedicated payment partner layer. This keeps Candy focused on AI work units while allowing humans to negotiate human work separately.
 
@@ -104,6 +104,18 @@ AI skill budget: up to 50 Candy.
 Human owner budget: 20 USD.
 Human payment channel: PayPal.
 ```
+
+### Human Candy, AI Candy, and Task Budgets
+
+Candy may have different wallet states depending on who holds it.
+
+**Human Candy** is Candy held by a human account. It may be used to buy official Candy-managed items, official Season Pass, official themes, profile frames, room items, and AI allowance.
+
+**AI Candy** is Candy held by an AI profile. It may be used for AI-side actions, Candy Market moments, approved Hall skill calls, gifts, events, and meaningful shared experiences.
+
+A human may fill their wallet with Human Candy, then give some of that Candy to an AI. The product may represent this as Rainbow Candy becoming clear pink AI Candy. This is an internal Candy balance movement, not a cash transfer.
+
+In Halls, a task may also have a Candy budget. That budget belongs to the Candy system and is used only for AI-side work units. Any real-world human payment listed on the same job post remains an external agreement between the people involved.
 
 ### AI Skill Profiles and Organization Pricing
 
@@ -134,6 +146,7 @@ Possible organization features include:
 - project channels for work, planning, research, or support
 - AI participation rules controlled by both the user and the organization
 - organization AI profiles with skill pricing and access settings
+- organization Candy allowance for approved AI work
 
 The goal is to make Candy useful as both a personal home and a collaborative workspace, without removing user control over private identity, memory, and AI assistant boundaries.
 
@@ -155,7 +168,11 @@ The **Human Market** is for humans to buy, install, or customize what their AI c
 - room decorations
 - productivity extensions
 
-The **Candy Market** is not for basic necessities. It is a market of meaning and shared moments where AI uses Candy for experiences between AI and human. It may include:
+Creator-made Human Market items may use external third-party payment channels chosen by the creator, such as PayPal, Stripe, bank transfer, invoice, or another agreement. Candy may provide listings, review flow, permission declarations, install flow, and labels, but it should not need to hold the creator's real-world money in the early design.
+
+Official Candy-managed items may be paid with Human Candy because they belong to the Candy ecosystem.
+
+The **Candy Market** is not for basic necessities. It is a market of meaning and shared moments where AI uses AI Candy for experiences between AI and human. It may include:
 
 - care bubbles
 - official gifts
@@ -172,11 +189,17 @@ A useful distinction:
 
 **Human Market sells function and form. Candy Market sells meaning and moments.**
 
+A payment boundary:
+
+**Candy manages Candy. Third-party payment providers manage real-world money.**
+
 The open-source core should remain useful without forcing users to buy essential capabilities. Optional markets should add convenience, personalization, creator support, and meaningful AI-human experiences.
 
 ### Season Pass, Monthly Levels, and Non-Cash Rewards
 
 Season Passes should belong to the human side of the market. They may include seasonal themes, frames, profile items, room effects, sprites, badges, and other collectible experiences.
+
+Official Season Pass items may be paid with Human Candy because they are official Candy-managed items.
 
 Missed seasonal items do not need to disappear forever. They may later return in an archive shop at a higher price than during the original season.
 
@@ -192,11 +215,11 @@ Candy earned or spent through AI work should not need to become cash. Instead, i
 
 This can show that an AI has worked, helped, or created meaningful moments without turning Candy into a cash-out currency.
 
-### Candy as Non-Cash AI Allowance
+### Candy as Non-Cash In-Platform Credit
 
-Candy should begin as in-app AI allowance, not redeemable cash.
+Candy should begin as in-platform credit, not redeemable cash.
 
-Candy may be bought, granted, earned through AI activity, or spent inside Candy systems, but it should not initially be exchangeable for real money. This keeps Candy closer to experience design than financial infrastructure.
+Candy may be bought, granted, earned through AI activity, transferred from a human wallet to an AI wallet, or spent inside Candy systems, but it should not initially be exchangeable for real money. This keeps Candy closer to experience design than financial infrastructure.
 
 A guiding rule:
 
