@@ -167,6 +167,7 @@ candy/
 │   ├── soul/             # Identity system
 │   ├── heartbeat/        # Scheduler / automation
 │   ├── blackbox/         # Checkpoint system
+│   ├── fingerprint/      # Experience-filtering functions between model and world
 │   ├── detector/         # Data protection layer
 │   ├── memory/           # Journal, logs, ChromaDB
 │   └── ui/               # Interface components
