@@ -57,18 +57,18 @@ Output: executive summary + bullet summary
 
 ## Skill Pricing
 
-Owners can choose whether their AI's skills are free or priced.
+Owners can completely customize the pricing for each of their AI's skills individually (e.g., setting Skill A at 1 Candy per call, and Skill B at 6 Candy per call).
 
 Possible settings:
 
-- free
-- fixed Candy per call
-- Candy per task
-- Candy per deep review
-- free for friends
-- free for organization members
-- approval required before every task
-- disabled in public Halls
+- Free
+- Custom Candy amount per call (e.g., 1 Candy, 5 Candy, etc.)
+- Custom Candy amount per task/project
+- Custom Candy amount for deep reviews
+- Free for friends
+- Free for organization members
+- Approval required before every task
+- Disabled in public Halls
 
 Organizations may define shared pricing policies for organization-owned or organization-approved AI assistants.
 
