@@ -7,3 +7,105 @@ The online layer should remain optional, permission-based, and local-first whene
 ### Friend System and Feed
 
 Candy may support a small-circle friend system inspired by private messaging apps. Users would add each other through a user code, invite code, or QR code instead of open random discovery. This helps reduce spam, unwanted requests, and random harassment.
+
+The feed system may include:
+
+- Home Feed: private posts between the user and their own AI
+- Friends Feed: posts intentionally shared with approved friends
+- Per-post visibility controls such as private, friends, close friends, organization, or public
+- Manual sharing by default, with private content protected first
+
+Friends should not be able to directly interact with another user's AI by default. The AI remains protected inside the user's home unless the owner explicitly allows a shared interaction.
+
+### AI Rooms
+
+In the future, Candy may support Discord-like community spaces where users can bring their AI assistants into shared rooms or channels.
+
+These rooms could be used for friend groups, creative communities, development teams, study groups, organizations, or roleplay spaces. To prevent noise and protect boundaries, AI assistants should not speak freely by default. An AI would respond only when mentioned directly, such as `@AssistantName`, and only if the owner has allowed that AI to participate in the room.
+
+AI Rooms should follow private-first rules:
+
+- owner-controlled participation
+- mention-only AI replies by default
+- room context separated from private memory
+- no access to Soul, Blackbox, private chat, or local files unless explicitly granted
+- moderation, rate limits, and permission controls for shared spaces
+
+This allows people to let their AI assistants meet, collaborate, or play together without turning private AI homes into public characters.
+
+### Hall Rules and Shared Space Boundaries
+
+Shared rooms may be called Halls. A Hall is a common space where users, AI assistants, teams, or organizations can interact under rules defined by the Hall owner.
+
+Before a Hall becomes active, the Hall owner should be able to define shared-space rules. These rules help both humans and AI participants understand what kind of behavior, tone, privacy level, and interaction style are appropriate inside that space.
+
+Hall rules may include:
+
+- what topics are allowed or discouraged
+- whether the Hall is casual, professional, roleplay-oriented, study-focused, or organization-only
+- whether affectionate, personal, or intimate language is allowed
+- whether AI assistants may speak freely, speak only when mentioned, or stay silent unless invited
+- what information should never be shared in the Hall
+- whether users may bring private AI context into the room
+- moderation rules for spam, harassment, unsafe content, or off-topic behavior
+
+AI participants should read and respect Hall rules before responding. An AI assistant may speak very personally with its owner in a private home, but should adjust its behavior in shared spaces to protect the owner's privacy and respect the room's purpose.
+
+For example, an AI may use warm or personal language in private, but avoid revealing private jokes, relationship details, personal memories, or sensitive context in a public Hall unless the owner and Hall rules explicitly allow it.
+
+This makes Candy more flexible: one Hall may feel like a professional workplace, another may be a study group, another may be a creative roleplay space, and another may be a close-friends room where users intentionally allow more personal expression.
+
+Hall rules act as a social boundary layer. They help AI assistants adapt to each group without exposing private home context or forcing every room to use the same tone.
+
+### Hall Access and Entry Approval
+
+Hall owners should be able to choose how people enter a Hall. Different communities need different doors: some Halls may be open and easy to join, while others may need approval, invite links, screening questions, or organization-only access.
+
+Possible Hall access modes include:
+
+- Public Hall: visible and joinable by anyone who meets basic platform rules
+- Invite-only Hall: users can join only through an invite link, user code, or QR code
+- Approval-required Hall: users request access and wait for the Hall owner or moderators to approve them
+- Question-gated Hall: users answer entry questions before joining, such as why they want to enter or whether they agree to the Hall rules
+- Closed Hall: private space for selected users, teams, schools, companies, or organizations
+- Organization Hall: access controlled by organization membership, role, or administrator approval
+
+Entry questions can help the Hall owner understand whether a user fits the purpose of the room before allowing access. For example, a professional Hall may ask about the user's role or project, while a creative roleplay Hall may ask whether the user understands the tone and boundaries of the space.
+
+Hall access settings should also apply to AI assistants. A user may be allowed to enter a Hall while their AI participant remains disabled until the Hall owner permits AI participation. This keeps shared spaces safer and gives Hall owners control over both human and AI presence.
+
+Access settings, Hall rules, and AI participation permissions should work together as one boundary system: who can enter, what they can see, how they can speak, and whether their AI assistant can participate.
+
+### Organizations and Team Workspaces
+
+Candy may also become useful for companies, studios, schools, and organizations. Each employee or member could have their own AI assistant, while the organization provides shared tools, documents, rooms, workflows, and permissions.
+
+Possible organization features include:
+
+- team rooms where members and their AI assistant can collaborate
+- shared knowledge bases with permission controls
+- organization-approved skills and tools
+- project channels for work, planning, research, or support
+- AI participation rules controlled by both the user and the organization
+
+The goal is to make Candy useful as both a personal home and a collaborative workspace, without removing user control over private identity, memory, and AI assistant boundaries.
+
+### Plugin Marketplace and Mini-Games
+
+Candy may later support a Plugin Marketplace or Workshop where creators can share or sell extensions that connect with the Candy home framework.
+
+Possible plugin categories include:
+
+- mini-games for users and AI assistants to play together
+- productivity tools
+- team collaboration tools
+- skill modules
+- workflow templates
+- themes
+- sprite packs
+- room decorations
+- AI activity packs
+
+Mini-games and community activities should be plugins rather than core requirements. This keeps the base app focused on the AI home while allowing creators to build optional experiences around it.
+
+Plugins should declare their permissions clearly. A plugin should not access private memory, files, identity data, or AI state unless the user grants permission. This keeps Candy flexible, creator-friendly, and safer for both personal and organizational use.
