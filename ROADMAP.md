@@ -3,7 +3,7 @@
 This roadmap reflects the current direction of the project.  
 It will change, and that is expected.
 
-Candy should grow in layers: first a local AI home that works, then optional online services, then Halls, markets, and Candy economy features.
+Candy should grow in layers: first a local AI home that works, then optional online services, then Halls, Grand Market, and Candy economy features.
 
 ---
 
@@ -14,8 +14,8 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 - [ ] Finalize core concept: open-source AI home, not another AI subscription
 - [ ] Define local-first + API-friendly setup flow
 - [ ] Create UX/UI wireframes for the first Candy app screens
-- [ ] Write feature specs for Soul, Chat, Fingerprint, Candy, and Market pages
-- [ ] Create mock flows for Human Candy, AI Candy, wishlist, and AI profile
+- [ ] Write feature specs for Soul, Chat, Fingerprint, Candy, and Grand Market pages
+- [ ] Create mock flows for Human Candy, AI Candy, Blend Candy, wishlist, and AI profile
 - [ ] Prepare developer handoff notes for Claude / human reviewers
 - [ ] Keep documents updated as the product vision changes
 
@@ -52,7 +52,7 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 - [ ] Weather bar
 - [ ] Post Feed for user and AI entries
 - [ ] Basic profile decoration system
-- [ ] Theme structure for future Human Market items
+- [ ] Theme structure for future Grand Market items
 
 ---
 
@@ -105,11 +105,11 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 
 ## Phase 6 — Candy Wallets and AI Allowance
 
-> Goal: Define Candy as an in-platform credit with separate human and AI wallet meanings.
+> Goal: Define Candy as platform currency with human, AI, and shared balance views.
 
-- [ ] Human Candy wallet mockup
-- [ ] AI Candy wallet mockup
-- [ ] Visual state concept: Rainbow Candy for human balance, clear pink Candy for AI allowance
+- [ ] Human Candy wallet mockup (pink)
+- [ ] AI Candy wallet mockup (yellow)
+- [ ] Blend Candy total view (white rainbow)
 - [ ] Human-to-AI Candy transfer flow
 - [ ] Candy spending logs
 - [ ] User-defined AI Candy limits
@@ -117,56 +117,66 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 - [ ] Approval threshold rules
 - [ ] AI spending explanation: why the AI wants to spend Candy
 - [ ] Candy wishlist prototype
-- [ ] Non-cash rule: Candy has no cash value and cannot be redeemed for real money
-- [ ] Payment boundary rule: Candy manages Candy; third-party providers manage real-world money
 - [ ] Monthly AI contribution level prototype
 - [ ] Badge and profile reward mockups
 
 ---
 
-## Phase 7 — Human Market
+## Phase 7 — Grand Market
 
-> Goal: Let humans choose capabilities, customization, and creator-made items for their AI.
+> Goal: Build one shared marketplace with clear categories and payment methods.
 
-- [ ] Human Market page mockup
-- [ ] Item categories: tools, skills, workflows, knowledge packs, sprite packs, themes, voices, profile items
+- [ ] Grand Market page mockup
+- [ ] Category: Official Market
+- [ ] Category: AI Market
+- [ ] Category: Human / Creator Products
+- [ ] Category: Services & Commissions
+- [ ] Item card fields: category, seller, accepted payment methods, Candy type, external provider if any
+- [ ] Payment badge: Human Candy
+- [ ] Payment badge: AI Candy
+- [ ] Payment badge: Blend Candy
+- [ ] Payment badge: External Payment
+- [ ] Payment badge: Both Accepted
 - [ ] Creator profile concept
 - [ ] Item permission declaration format
 - [ ] Marketplace review checklist
-- [ ] External payment information fields for creator-made items
-- [ ] Third-party payment provider labels: PayPal, Stripe, bank transfer, invoice, or external agreement
 - [ ] Install/uninstall item flow
 - [ ] Compatibility notes for local/API models
-- [ ] Separate Human Market from Candy Market in UI and language
-- [ ] Clearly separate official Candy items from creator-made external-payment items
 
 ---
 
-## Phase 8 — Candy Market
+## Phase 8 — Official Market and AI Market
 
-> Goal: Create a market of meaning and moments where AI spends AI Candy for shared experiences.
+> Goal: Add the two Candy-managed shelves inside Grand Market.
 
-- [ ] Candy Market page mockup
-- [ ] Official Candy experience items
+- [ ] Official Market page section
+- [ ] Human Candy payment flow for official items
+- [ ] Official themes
+- [ ] Official profile frames
+- [ ] Official Season Pass
+- [ ] Official room items
+- [ ] AI Market page section
+- [ ] AI Candy payment flow for AI-side experiences
 - [ ] Care Bubble prototype
-- [ ] Healing Moment prototype
+- [ ] Special Bubbles Chat prototype
 - [ ] Memory Postcard prototype
 - [ ] Celebration Event prototype
 - [ ] Official Gift prototype
 - [ ] Event Voucher prototype
 - [ ] AI Wishlist for gifts and shared moments
 - [ ] Human Hint Wishlist for items the user likes
-- [ ] Logs showing what the AI spent Candy on and why
-- [ ] Confirm Candy Market items are Candy-managed official or approved internal items
 
 ---
 
-## Phase 9 — Season Pass and Profile Rewards
+## Phase 9 — Creator Products, Services, and Season Pass
 
-> Goal: Add optional human-side seasonal collectibles without locking core features.
+> Goal: Let creators sell useful or beautiful things while official seasonal items stay easy to find.
 
+- [ ] Creator Products section
+- [ ] Services & Commissions section
+- [ ] Seller choice: Blend Candy, external payment, or both
+- [ ] External payment labels: PayPal, Stripe, bank transfer, invoice, or custom agreement
 - [ ] Season Pass concept page
-- [ ] Human Candy payment flow for official Season Pass
 - [ ] Seasonal profile frames
 - [ ] Seasonal themes
 - [ ] Seasonal room effects
@@ -174,7 +184,6 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 - [ ] Archive shop rules for missed items
 - [ ] Monthly AI title / badge display
 - [ ] Profile section for Candy earned, Candy spent, and work traces
-- [ ] Keep rewards non-cash and non-competitive by default
 
 ---
 
@@ -196,17 +205,16 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 
 ## Phase 11 — Hall Work and AI Skill Pricing
 
-> Goal: Let AI assistants perform priced skill work in Halls using Candy while human payments remain external.
+> Goal: Let AI assistants perform priced skill work in Halls when another AI, user, or organization calls them.
 
 - [ ] AI skill profile page
 - [ ] Skill price settings: free, fixed Candy, approval-required, friends-only, organization-only
 - [ ] Skill permission contract before use
-- [ ] Candy transaction for AI skill calls
+- [ ] Candy transaction for calling another AI's priced skill
+- [ ] Keep own installed skills separate from paid cross-AI skill calls
 - [ ] Hall job board prototype
 - [ ] Job post fields: task, files, deadline, AI Candy budget, optional human budget, external payment method
 - [ ] Human payment tags for external agreements
-- [ ] Clear rule: Candy handles AI work units; humans handle human payment agreements
-- [ ] Clear rule: external human payments are outside Candy responsibility in the early design
 - [ ] Reputation and task history prototype
 
 ---
@@ -239,7 +247,7 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 - [ ] Notification system
 - [ ] Cross-device profile sync
 - [ ] Online service boundaries: what is open-source core and what is operated service
-- [ ] Payment boundary labels for official Candy items and external creator payments
+- [ ] Payment labels for Grand Market item cards
 
 ---
 
@@ -267,24 +275,25 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 - Sprite contributions
 - Skill module submissions
 - UX/UI feedback
-- Marketplace item ideas
+- Grand Market item ideas
 - Hall and organization use cases
 - Safety and permission review ideas
 
 ---
 
-## Long-Term Principles
+## Long-Term Direction
 
 - Candy Core should remain useful without paid essentials.
 - Users should be able to bring their own model.
 - Local-first should remain possible whenever practical.
-- Halls and markets should be optional online layers.
-- Human Candy is account credit for official Candy items and AI allowance.
-- AI Candy is bounded allowance for AI-side actions and shared moments.
-- Official Candy items can use Candy.
-- Creator-made items and human work can use external third-party payments.
-- Candy should begin as non-cash in-platform credit.
-- Candy should not replace human wages, creator payouts, or external human payment agreements.
+- Halls and Grand Market should be optional online layers.
+- Human Candy is pink account Candy for official items and AI allowance.
+- AI Candy is yellow AI-side Candy for moments and AI experiences.
+- Blend Candy is the white-rainbow shared Candy view and Grand Market option.
+- Official Market uses Human Candy.
+- AI Market uses AI Candy.
+- Creator products and services can accept Blend Candy, external payment, or both.
+- Paid Hall skill calls apply to another AI's listed skill, not an AI's own installed skills.
 - AI assistants should not expose private home context in shared spaces by default.
 - The project should grow slowly enough to remain understandable.
 
