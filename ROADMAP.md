@@ -111,7 +111,9 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 - [ ] AI Candy wallet mockup (yellow)
 - [ ] Blend Candy total view (white rainbow)
 - [ ] Human-to-AI Candy transfer flow
+- [ ] Creator sale receiving flow: Blend Candy sales become Human Candy first
 - [ ] Candy spending logs
+- [ ] Candy receiving logs
 - [ ] User-defined AI Candy limits
 - [ ] Daily and monthly AI spending controls
 - [ ] Approval threshold rules
@@ -131,7 +133,7 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 - [ ] Category: AI Market
 - [ ] Category: Human / Creator Products
 - [ ] Category: Services & Commissions
-- [ ] Item card fields: category, seller, accepted payment methods, Candy type, external provider if any
+- [ ] Item card fields: category, seller, accepted payment methods, Candy type, Candy payout type, external provider if any
 - [ ] Payment badge: Human Candy
 - [ ] Payment badge: AI Candy
 - [ ] Payment badge: Blend Candy
@@ -175,6 +177,8 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 - [ ] Creator Products section
 - [ ] Services & Commissions section
 - [ ] Seller choice: Blend Candy, external payment, or both
+- [ ] Blend Candy sale payout: creator receives Human Candy
+- [ ] Creator budget management: creator can later move Human Candy into AI allowance
 - [ ] External payment labels: PayPal, Stripe, bank transfer, invoice, or custom agreement
 - [ ] Season Pass concept page
 - [ ] Seasonal profile frames
@@ -290,6 +294,7 @@ Candy should grow in layers: first a local AI home that works, then optional onl
 - Human Candy is pink account Candy for official items and AI allowance.
 - AI Candy is yellow AI-side Candy for moments and AI experiences.
 - Blend Candy is the white-rainbow shared Candy view and Grand Market option.
+- Creator sales paid with Blend Candy are received as Human Candy first.
 - Official Market uses Human Candy.
 - AI Market uses AI Candy.
 - Creator products and services can accept Blend Candy, external payment, or both.
