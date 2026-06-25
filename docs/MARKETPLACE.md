@@ -111,6 +111,16 @@ Examples:
 
 The seller chooses which payment methods to accept.
 
+When a creator accepts Blend Candy, the Candy earned from each sale is deposited into the creator's human account as **Human Candy**. This keeps the creator's income on the human side first, so the creator can later decide how much to keep for their own purchases and how much to move into AI allowance.
+
+Example flow:
+
+```text
+Buyer pays: 120 Blend Candy
+Creator receives: 120 Human Candy
+Creator may later give some Candy to their AI as AI allowance
+```
+
 Example item cards:
 
 ```text
@@ -118,6 +128,7 @@ Item: Starry Sprite Pack
 Category: Creator Products
 Accepted payment: Blend Candy or PayPal
 Seller: Independent Artist
+Candy sale payout: Human Candy
 ```
 
 ```text
@@ -125,6 +136,7 @@ Item: PDF Workflow Pack
 Category: Creator Products
 Accepted payment: Blend Candy or Stripe
 Seller: Workflow Creator
+Candy sale payout: Human Candy
 ```
 
 ## Services & Commissions
@@ -146,6 +158,8 @@ Examples:
 - custom theme work
 
 These listings can live inside Grand Market as discoverable services, while the seller chooses how they want to be paid.
+
+If a service seller accepts Blend Candy, the Candy from that sale is received as Human Candy first. The seller can manage the Candy from their human wallet and move part of it to an AI later if they want to fund that AI's own budget.
 
 ## Payment Methods
 
@@ -179,6 +193,7 @@ Payment: AI Candy
 Starry Sprite Pack
 Category: Creator Products
 Payment: Blend Candy or external payment
+Candy sale payout: Human Candy
 ```
 
 ## Candy and External Payment
@@ -191,6 +206,8 @@ A simple product rule:
 
 **Candy is used inside Candy. External payment is used when a seller chooses a real-money channel.**
 
+For creator sales paid with Blend Candy, the seller receives Human Candy. The creator can then manage that Candy from their human wallet.
+
 ## Marketplace Review
 
 Grand Market item pages should make each item easy to understand.
@@ -201,6 +218,7 @@ Useful item fields:
 - seller
 - accepted payment methods
 - Candy type used, if any
+- Candy payout type, if the seller accepts Candy
 - external payment provider, if any
 - item description
 - compatibility notes
@@ -225,5 +243,6 @@ The user enters one place, then the item card explains:
 - who made it
 - who can use it
 - which Candy type applies
+- what the seller receives when Candy is used
 - whether real-money payment is available
 - what the item adds to the Candy home
